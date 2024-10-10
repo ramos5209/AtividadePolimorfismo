@@ -4,6 +4,11 @@ public class Animal {
 	private String nome;
 	private String familia;
 	
+	
+	public Animal(String nome, String familia) {
+		this.nome = nome;
+		this.familia = familia;
+	}
 	public void fazerSom() {
 		System.out.println("....");
 	}
